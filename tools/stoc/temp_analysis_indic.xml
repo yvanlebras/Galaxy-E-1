@@ -15,11 +15,11 @@
          'ssi'
          'csi'
          #if $settings.advanced=='advanced' 
-             $settings.method '' '' 'idindicatortrait'
+             $settings.method '' 'idindicatortrait'
              $settings.smooth_plot
              $settings.compute_ic
          #else
-             'gam' '' '' 'idindicatortrait'
+             'gam' '' 'idindicatortrait'
              'TRUE'
              'TRUE'
          #end if
