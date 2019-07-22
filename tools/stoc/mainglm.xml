@@ -59,16 +59,18 @@
         </collection>
     </outputs>
     <tests>
-    <!--        <test> 
+    <!--
+        <test> 
             <param name="input" value="Datafilteredfortrendanalysis.tabular"/>
             <param name="advanced" value="simple"/>
             <output name="yearly_variations"  file="mainglm_tab_years.tabular"/>
             <output name="global_tendencies"  file="mainglm_tab_global.tabular"/>
             <output_collection name="plots"  type="list">
-                <element name="sp1" file="mainglm_plot_sp1.png" ftype="png"/>
-                <element name="sp2" file="mainglm_plot_sp2.png" ftype="png"/>
+                <element name="ALAARV_mainglm" file="mainglm_plot_sp1.png" ftype="png"/>
+                <element name="PARCAE_mainglm" file="mainglm_plot_sp2.png" ftype="png"/>
             </output_collection> 
-        </test>-->
+	</test>
+    -->
     </tests>
     <help><![CDATA[
 =================================================
